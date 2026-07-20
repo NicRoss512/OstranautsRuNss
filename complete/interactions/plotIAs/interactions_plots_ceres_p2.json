@@ -1,0 +1,443 @@
+[
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
+    "strTitle": "Спросить о Benjamin Choong и CCRE",
+    "strDesc": "[us] [спрашивает] [them] о местонахождении Benjamin Choong.",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply"
+    ],
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "bRecheckThisPlot": true,
+    "ShipTestThem": "BCER",
+    "fForcedChance": 0
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply",
+    "strTitle": "Establish_Contact_CCRE_Reply_Success",
+    "strDesc": "[us] [бросает] на [them-obj] испуганный взгляд и говорит следовать за ним куда-нибудь поукромнее и ждать дальнейшей связи.",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "fDuration": 0.0005,
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim"
+    ],
+    "fForcedChance": 1
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim",
+    "strTitle": "Проследовать на тайную встречу",
+    "strDesc": "На нём здоровенная шляпа, оммаж белому «стетсону», под стать синей фланелевой рубахе и джинсам. Он трясёт твою руку, и манжета задевает твои пальцы — идеально гладкая. Никакая это не настоящая фланель. «John Wayne, к вашим услугам, сэр». Он поднимает два пальца. Две стопки, налитые до краёв, скользят по стойке, не расплескав ни капли.\n\nОн высокий и худой, почти как мертвец. Смуглая кожа — то ли загар, то ли меланин в родословной. Он опрокидывает свою стопку и выжидающе смотрит на тебя. В горле жжёт. Он медленно кивает. «Если умеешь пить не пьянея — поладим». Он уже поднимает руку, требуя ещё две.\n\n«А теперь слушай сюда», — говорит он, не опуская руки, прежде чем ты успеваешь вставить слово. «Мы будем тут пить, пока в глазах не задвоится. Потом двинем дальше по улице к Palmers. Там ещё по паре. Потом вверх по спину к The Red Door. Две там — а потом я ввяжусь в драку. Ты прикрываешь мне спину. У матросов Xinhua полно скрипа, мы его забираем — он наш. Заглянем в Aphrodite. У меня полоса удачи, я на этой неделе поднял пять штук. Идём ва-банк, а? Держись за мной. А после я знаю одного парня, Muhammad или Mustafa, как-то так. У него есть парни, девчонки — что угодно. Сложим всё это вместе», — говорит он, принимая поданную стопку, — «и вечер удался».\n\nТы пока оставляешь свой стакан на месте. «Ты убил Benjamin Choong?»\n\nОн морщится. «Не знаю, может. А как он выглядит?»\n\n«Если не знаешь, ты тратишь моё время».\n\n«Ладно, ладно», — машет он рукой. «Остынь. Хладнокровный ты тип. Нет, не убивал я его. Он пропал на Ceres. Тут всякий люд пропадает». Он приподнимает рубаху, показывая револьвер цвета слоновой кости на бедре. «Я при оружии. И тебе бы стоило».\n\n«Ты даже не пытаешься скрыть, кто ты. Почему?» Ты оглядываешь его с ног до головы — нелепую карикатуру на человека. «Ты же торчишь как бельмо на глазу».\n\nОн долго тебя разглядывает. Удивительно цепкий взгляд для того, кто столько пьёт. «Ну, сынок», — тянет он, — «это война. Пора бы уже это усвоить. А у войны есть правила». Он замечает твоё выражение лица. «О, конечно, их нарушают. Но они есть. Хотя бы на время. И, чёрт возьми, я же жив, а?» Он ухмыляется. «„Он вцепился в утёс кривыми когтями, к солнцу близок в пустынном краю, лазурным миром окружён, стоит“».\n\n«Это ещё что?»\n\nЕго лицо мрачнеет. «Это поэзия, балда. Так вот», — он устремляет на тебя твёрдый взгляд. «Как говаривал покойный великий мистер Seger — Pete, заметь, не Bob. Терпеть не могу эту хрень про Night Moves. Так на чьей ты стороне?»\n",
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fDuration": 0.0005,
+    "strActionGroup": "Use",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strSubUI": "Landscape01",
+    "bPause": true,
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty",
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Enter",
+    "strTitle": "Подойти к дому Choong",
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Corner_Bed",
+      "Plot_Scholar_Flat_Workbench",
+      "Plot_Scholar_Flat_Kitchenette",
+      "Plot_Scholar_Flat_Racks",
+      "ENCFinish"
+    ],
+    "strDesc": "Указания Isambard приводят тебя к квартире Benjamin Choong без особых сложностей. Жилище — маленькая эконом-квартирка, зажатая среди десятков таких же в относительно дорогом районе станции. Ряд одинаковых дверей не даёт тебе повода задержаться, но дверь Choong, ближе к концу, — единственная, что мигает зелёным индикатором. Ясно, что она не заперта. Ты входишь.",
+    "CTTestThem": "CTPLOT_Ceres_Is_ChoongDoor",
+    "strTooltip": "На дверной панели значится Benjamin Choong"
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Corner_Bed",
+    "strTitle": "Обыскать угловую кровать",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Кровать качественная, дорогая, но неубранная. Ты гадаешь, был ли Choong здесь, когда его умыкнули в такой спешке. Должно быть, пробуждение вышло грубым.",
+    "aInverse": [
+      "Plot_Scholar_Flat_Workbench",
+      "Plot_Scholar_Flat_Kitchenette",
+      "Plot_Scholar_Flat_Racks",
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Workbench",
+    "strTitle": "Обыскать верстак",
+    "strDesc": "Из всех мест в поле твоего зрения верстак разгромлен сильнее всего. Ободранные терминалы, разбитая лабораторная посуда и клубки электроники покрывают поверхность. В центре стола — явное отсутствие мусора. Даже лёгкий слой пыли, что лежит по остальной квартире, сюда не добирается.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Corner_Bed",
+      "Plot_Scholar_Flat_Kitchenette",
+      "Plot_Scholar_Flat_Racks",
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Kitchenette",
+    "strTitle": "Обыскать кухонный уголок",
+    "strDesc": "Ты видишь полуоткрытый холодильник, маленький обеденный стол с единственным стулом и разную кухонную утварь, явно сброшенную на пол во время беспорядочного обыска.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Kitchenette_Fridge",
+      "Plot_Scholar_Flat_Kitchenette_Table",
+      "Plot_Scholar_Flat_Kitchenette_Ground",
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Kitchenette_Fridge",
+    "strTitle": "Обыскать холодильник",
+    "strDesc": "Он остался относительно нетронутым. Дорогие высокопитательные продукты выстроены аккуратными рядами. Ты видишь около дюжины бутылок воды, все полные, вместе с партией охлаждённых добавок, часть которых ты не узнаёшь. Choong явно умел о себе заботиться. Почему ты ловишь себя на том, что думаешь о нём в прошедшем времени?",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Kitchenette_Ground",
+      "Plot_Scholar_Flat_Kitchenette_Table",
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Kitchenette_Table",
+    "strTitle": "Обыскать стол",
+    "strDesc": "Ты находишь пустую кофейную чашку, ручной терминал, разбитый до неремонтопригодности и лишённый накопителя, и книгу в мягкой обложке. Такие недёшевы. Что-то под названием «День триффидов» Джона Уиндэма.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Kitchenette_Ground",
+      "Plot_Scholar_Flat_Kitchenette_Fridge",
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Kitchenette_Ground",
+    "strTitle": "Обыскать пол",
+    "strDesc": "Битая посуда, осколки стекла и разрозненные бумаги устилают пол здесь. Ты роешься в бумагах, но они изложены языком столь заумным, что для тебя нечитаемы. Выделяются упоминания редких минеральных соединений, а также их свойств при сгорании при определённых температурах.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Kitchenette_Fridge",
+      "Plot_Scholar_Flat_Kitchenette_Table",
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Racks",
+    "strTitle": "Обыскать стеллажи и баки",
+    "strDesc": "Около дюжины контейнеров разных размеров выстроились вдоль стен. Некоторые встроены в пол. С чего начать?",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Racks_North",
+      "Plot_Scholar_Racks_East",
+      "Plot_Scholar_Racks_Floor",
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Racks_North",
+    "strTitle": "Обыскать набор у северной стены",
+    "strDesc": "Тут ничего, кроме собрания научных фолиантов. Тебя впечатляет охват дисциплин: математика, инженерия, искусство, химия и истории древних земных цивилизаций.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Racks_East",
+      "Plot_Scholar_Racks_Floor"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Racks_East",
+    "strTitle": "Обыскать набор у восточной стены",
+    "strDesc": "Этот набор, рядом с верстаком, полон инструментов и мелких деталей. Часть остаётся аккуратно разложенной. Другие сброшены на пол.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Racks_North",
+      "Plot_Scholar_Racks_Floor"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Racks_Floor",
+    "strTitle": "Обыскать набор в полу",
+    "strDesc": "Похоже, это для хранения крупных вещей. Рулоны ткани, стопки тонкого листового металла, мерная стеклянная посуда, кое-какие инструменты покрупнее и… что-то там за паяльником? Шов?",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Racks_Floor_Seam",
+      "Plot_Scholar_Racks_East",
+      "Plot_Scholar_Racks_North"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Racks_Floor_Seam",
+    "strTitle": "Исследовать шов",
+    "strDesc": "Ты отодвигаешь инструменты в сторону и мягко нажимаешь на шов. Он высвобождает пружину и открывает крошечный люк, не намного больше твоей ладони. Внутри ты находишь крошечный чёрный блокнот. Это разграфлённая тетрадь, исписанная аккуратным почерком. Имена, даты и последний столбец, без заголовка сверху, но с записью напротив каждого имени.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
+    "strTitle": "Спросить о Benjamin Choong и GalCon",
+    "strDesc": "[us] [спрашивает] [them] о местонахождении Benjamin Choong.",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "bRecheckThisPlot": true,
+    "ShipTestThem": "BCRS",
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Reply"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Reply",
+    "strTitle": "Establish_Contact_CCRE_Reply_Success",
+    "strDesc": "[us] [бросает] на [them-obj] испуганный взгляд и говорит следовать за ним в район The Fountain и ждать дальнейшей связи.",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strAnim": "Talk",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Shim"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Shim",
+    "strTitle": "Проследовать в район The Fountain",
+    "strDesc": "Открытые водопроводные трубы с завода переработки тянутся у тебя над головой, гудя и булькая. Ты смеёшься — и никто, кроме тебя, этого не слышит, таков этот гул. Это «Фонтан», очень большой участок кольца и самое близкое к общественному пространству место на станции. Скамьи и стоячие камни намекают на ландшафтный сад, вместе с парой странных кашпо. Скамьи заняты парочками, ведущими негромкие беседы. Вверх по изгибу кольца, труся навстречу тебе, — отряд морпехов Коалиции на утренней физподготовке.\n\nТвой блуждающий взгляд натыкается на того, кто смотрит на тебя. Красный ципао, афроазиатская внешность. Человек делает жест — большой и указательный пальцы в кольцо вокруг глаза. Ты повторяешь. Его рука грациозно опускается ладонью наружу. Приглашение.\n\nТы пристраиваешься рядом. Запах сандала, кажется тебе, и ты невольно пытаешься вспомнить, когда сам в последний раз позволял себе такую роскошь. Макияжа на нём столько, что, может, его и нет вовсе. А может, просто везучая кожа.\n\n«—?» — говоришь ты, и твой голос тонет в шуме воды над головой. «Ты убил Ben Choong?»\n\nОтвечая, он на тебя не смотрит. «Искренне надеюсь, что нет», — говорит он. Акцент у него, как ни странно, американский, с фирменным вокал-фраем. «Это я за своего работодателя отвечаю, ясно. Сам я сорок минут назад был в постели».\n\n«Надеешься, что нет?»\n\n«Тише», — ровно говорит он. «Даже здесь. Если ты выйдешь из берегов, мне придётся подключить свою охрану — или рискнуть прикрытием». В уголке его рта играет улыбка. «Понятно?»\n\nОглянувшись через плечо, ты чувствуешь, что кто-то куда более массивный, чем вы оба, держит уважительную, но неизменную дистанцию.\n\n«Понятно, конечно», — отвечаешь ты, стараясь попасть ему в тон. «А ты пойми вот что: либо ты рассказываешь мне, что происходит, либо я поведу себя как неуравновешенный космокапитан, только что потерявший пассажира».\n\nОн останавливается полюбоваться особенно любопытным камнем на белом выставочном постаменте. Ты смотришь на его профиль, пока он не кивает, уступая. Затем и ты смотришь на камень.\n\n«Мы чисты, Капитан. И поверь, я бы с радостью рассказал тебе, что знаю. Но сперва мне нужно понять, на чьей ты стороне. Итак?»\n",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty",
+    "strTitle": "Выразить верность GalCon и Titan",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "«Ну ни хрена себе, ещё один боец за хороших ребят»."
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
+    "strTitle": "Выразить верность Xinhua",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "«Жаль это слышать, омбре», — говорит Wayne. «Ну, если вдруг созреешь передумать, меня можно найти, оставив записку. Знаешь посольство на этой станции? Рядом с ним киоски „корабль и дом“, а в углу кашпо. Фикус или типа того. Что бы ты туда ни оставил, я рано или поздно найду»."
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty",
+    "strTitle": "Выразить безразличие к Proxy-державам",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "«А-а, играешь на два фронта, вижу», — говорит Wayne и подмигивает тебе. «Люблю тех, кто держит варианты открытыми. Денег в этом больше. Хотя можешь и загнуться»."
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
+    "strTitle": "Выразить верность Xinhua",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "«Это, по крайней мере, обнадёживает», — говорит он. «Пусть и не твои... агрессивные заигрывания. Но верность нужно доказать, понимаешь. Итак. Испытание»."
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
+    "strTitle": "Выразить безразличие к Proxy-державам",
+    "strDesc": "«Тёплый», — говорит он. «Никогда не к добру. С таким настроем тебя выплюнут из уст Божьих».",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty",
+    "strTitle": "Выразить верность GalCon и Titan",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "«А-а», — говорит он. «Какая жалость. Я так на тебя надеялся»."
+  }
+]
