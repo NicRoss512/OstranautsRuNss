@@ -1,7 +1,7 @@
 [
   {
     "strName": "STKShipSurrender_AIDemand_Intro",
-    "strTitle": "Потребовать сдачи",
+    "strTitle": "Угроза",
     "strDesc": "Ложись в дрейф или будешь уничтожен.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 0.0,

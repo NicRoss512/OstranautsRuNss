@@ -1,7 +1,7 @@
 [
   {
     "strName": "SHIPUnDockAI",
-    "strTitle": "Запрос разрешения на отстыковку",
+    "strTitle": "Отстыковка",
     "strDesc": "[us-regID] готов к выходу, запрашивает разрешение на отстыковку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -20,7 +20,7 @@
   },
   {
     "strName": "SHIPUnDock",
-    "strTitle": "Запрос разрешения на отстыковку",
+    "strTitle": "Отстыковка",
     "strDesc": "[us-regID] готов к выходу, запрашивает разрешение на отстыковку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -375,7 +375,7 @@
   },
   {
     "strName": "SHIPDock",
-    "strTitle": "Запрос разрешения на стыковку",
+    "strTitle": "Стыковка",
     "strDesc": "[them-shipfriendly], я [us-shipfriendly], запрашиваю разрешение на сближение и стыковку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -427,7 +427,7 @@
   },
   {
     "strName": "SHIPDockAI",
-    "strTitle": "Запрос разрешения на стыковку",
+    "strTitle": "Стыковка",
     "strDesc": "[them-shipfriendly], я [us-shipfriendly], запрашиваю разрешение на сближение и стыковку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -457,7 +457,7 @@
   },
   {
     "strName": "SHIPDockAIWStation",
-    "strTitle": "Запрос разрешения на стыковку",
+    "strTitle": "Стыковка",
     "strDesc": "[them-shipfriendly], я [us-shipfriendly], запрашиваю разрешение на сближение и стыковку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -694,7 +694,7 @@
   },
   {
     "strName": "SHIPForceDockWithPenalty",
-    "strTitle": "Начать несанкционированную стыковку",
+    "strTitle": "Несанкц. стыковка",
     "strDesc": "К вашему сведению, [them-shipfriendly], мы начинаем маневры принудительной стыковки.",
     "strActionGroup": "Ship",
     "strColor": "Dialogue",
@@ -712,7 +712,7 @@
   },
   {
     "strName": "SHIPForceDock",
-    "strTitle": "Начать принудительную стыковку",
+    "strTitle": "Принуд. стыковка",
     "strDesc": "К вашему сведению, [them-shipfriendly], мы начинаем маневры принудительной стыковки.",
     "strActionGroup": "Ship",
     "strColor": "Dialogue",
@@ -1447,7 +1447,7 @@
   },
   {
     "strName": "SHIPSosThreatApproaching",
-    "strTitle": "SOS: приближается угроза",
+    "strTitle": "SOS: прибл. угроза",
     "strDesc": "[us] [сообщает] о приближении угрозы, запрашивает оборонительную поддержку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -1481,7 +1481,7 @@
   },
   {
     "strName": "SHIPSosStranded",
-    "strTitle": "SOS: кончилось топливо",
+    "strTitle": "SOS: нет топлива",
     "strDesc": "[us-regID] остался без топлива, просит о помощи.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -1501,7 +1501,7 @@
   },
   {
     "strName": "SHIPSosAskPlayer",
-    "strTitle": "SOS: кончилось топливо",
+    "strTitle": "SOS: нет топлива",
     "strDesc": "У меня кончилось топливо. Раз уж ты рядом, не выручишь?",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -1737,7 +1737,7 @@
   },
   {
     "strName": "SHIPRumorList",
-    "strTitle": "Спросить слух",
+    "strTitle": "Слухи",
     "strDesc": "Слыхал какие-нибудь новые слухи?",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -2032,7 +2032,7 @@
   },
   {
     "strName": "SHIPDataRequestCrew",
-    "strTitle": "Запросить список экипажа",
+    "strTitle": "Список экипажа",
     "strDesc": "[us-regID] запрашивает список экипажа.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -2046,7 +2046,7 @@
   },
   {
     "strName": "SHIPDataRequestStatus",
-    "strTitle": "Статус корабля",
+    "strTitle": "Статус",
     "strDesc": "[them-regID], доложите о статусе!",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -2099,7 +2099,7 @@
   },
   {
     "strName": "SHIPDataRequestMarket",
-    "strTitle": "Запросить рыночные данные",
+    "strTitle": "Рынок",
     "strDesc": "[us-regID] запрашивает рыночные данные.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",

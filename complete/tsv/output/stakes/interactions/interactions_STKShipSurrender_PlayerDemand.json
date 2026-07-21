@@ -1,7 +1,7 @@
 [
   {
     "strName": "STKShipSurrender_PlayerDemand_Intro",
-    "strTitle": "Потребовать сдачи",
+    "strTitle": "Угроза",
     "strDesc": "Сдавайся или будешь уничтожен.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 0.0,
