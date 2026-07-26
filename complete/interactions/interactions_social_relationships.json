@@ -204,6 +204,6 @@
     "LootCondsUs": "CONDGreetAIUs",
     "LootCondsThem": "CONDGreetAIThem",
     "CTTestUs": "TIsValidSocialTargetNotGreetedAI",
-    "CTTestThem": "TIsValidSocialTargetNotGreetedAI"
+    "CTTestThem": "TIsValidSocialTargetNotGreeted"
   }
 ]
