@@ -203,36 +203,6 @@
     "ShipTestUs": "HasMultiplePortsTotal"
   },
   {
-    "strName": "SHIPSelectTargetPort",
-    "strTitle": "Сменить целевой шлюз",
-    "strDesc": "Сменить целевой порт",
-    "strActionGroup": "Ship",
-    "strColor": "Neutral",
-    "aInverse": [
-      "SHIPMultiDockSelectAllow"
-    ],
-    "bOpener": true,
-    "fTargetPointRange": 100000000,
-    "bIgnoreFeelings": true,
-    "nLogging": 1,
-    "ShipTestThem": "HasMultiplePortsAvailable"
-  },
-  {
-    "strName": "SHIPSelectTargetPortForced",
-    "strTitle": "Сменить целевой шлюз",
-    "strDesc": "Сменить целевой порт",
-    "strActionGroup": "Ship",
-    "strColor": "Neutral",
-    "aInverse": [
-      "SHIPMultiDockingStartAllowForced"
-    ],
-    "bOpener": true,
-    "fTargetPointRange": 100000000,
-    "bIgnoreFeelings": true,
-    "nLogging": 1,
-    "ShipTestThem": "HasMultiplePortsAvailable"
-  },
-  {
     "strName": "SHIPMultiDockSelectAllow",
     "strTitle": "Выбор порта",
     "strDesc": "[them-regID], выберите стыковочный порт.",
@@ -301,7 +271,7 @@
     "aInverse": [
       "SHIPDockWithShipDenyDoesNotFit",
       "SHIPDockDenyPortDoesNotFit",
-      "SHIPMultiDockSelectAllow",
+      "SHIPMultiDockSelectForcedAllow",
       "SHIPForceDockNoPilot,[us-regID],[them-regID]"
     ],
     "bOpener": true,
@@ -734,7 +704,7 @@
     "strDesc": "КОД 6700: Цель вне зоны досягаемости. Повторите на расстоянии менее 5 км.",
     "strActionGroup": "Ship",
     "strColor": "StatusRed",
-    "fTargetPointRange": 40,
+    "fTargetPointRange": 10000000,
     "nLogging": 1
   },
   {
@@ -794,20 +764,10 @@
       "SHIPForceDockDenyRange"
     ],
     "bOpener": false,
-    "fTargetPointRange": 40,
+    "fTargetPointRange": 10000000,
     "bIgnoreFeelings": true,
     "nLogging": 1,
     "bHumanOnly": true
-  },
-  {
-    "strName": "SHIPForceDockDenyRangeNoPilot",
-    "strTitle": "Принудительная стыковка отклонена: дистанция",
-    "strDesc": "КОД 6700: Цель вне зоны досягаемости. Повторите на расстоянии менее 5 км.",
-    "strActionGroup": "Ship",
-    "strColor": "StatusRed",
-    "aInverse": [],
-    "fTargetPointRange": 40,
-    "nLogging": 1
   },
   {
     "strName": "SHIPForceDockAllowNoPilot",

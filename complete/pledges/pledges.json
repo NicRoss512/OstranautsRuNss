@@ -614,7 +614,7 @@
     "strIATrigger": "PLGBartend",
     "aIAEnd": null,
     "strThemID": null,
-    "nPriority": 4
+    "nPriority": 3
   },
   {
     "strName": "EmbarkCommand",

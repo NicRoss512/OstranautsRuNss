@@ -511,8 +511,7 @@
       [
         "PLOTBoopTurnIn,[protag],[contact],[target]"
       ]
-    ],
-    "aPhaseTitles": []
+    ]
   },
   {
     "strName": "AyoCorpSnitch",
@@ -730,8 +729,7 @@
         "PLOTChoices01b,[protag],[target]"
       ],
       []
-    ],
-    "aPhaseTitles": []
+    ]
   },
   {
     "strName": "TEMPChoicesDialogue",
@@ -767,8 +765,7 @@
         "PLOTChoicesDialogue02b,[protag],[target]"
       ],
       []
-    ],
-    "aPhaseTitles": []
+    ]
   },
   {
     "strName": "ChoiceXYZ",
@@ -808,8 +805,7 @@
         "PLOTChoiceXYZ03b,[protag],[target]"
       ],
       []
-    ],
-    "aPhaseTitles": []
+    ]
   },
   {
     "strName": "ChoiceFanBreakoutTeam",
@@ -938,8 +934,7 @@
       [
         "PLOTFixerTrustIssuesConfirmLEO,[protag],[leo]"
       ]
-    ],
-    "aPhaseTitles": []
+    ]
   },
   {
     "strName": "OKLGCritter",
@@ -1146,8 +1141,7 @@
         "PLOT_Lonesome_01a,[protag],[protag]"
       ],
       []
-    ],
-    "aPhaseTitles": []
+    ]
   },
   {
     "strName": "Meat",
@@ -1278,8 +1272,7 @@
       [],
       [],
       []
-    ],
-    "aPhaseTitles": []
+    ]
   },
   {
     "strName": "Merga",
@@ -1473,8 +1466,7 @@
       ],
       [],
       []
-    ],
-    "aPhaseTitles": []
+    ]
   },
   {
     "strName": "ProspectorFetchGold",
