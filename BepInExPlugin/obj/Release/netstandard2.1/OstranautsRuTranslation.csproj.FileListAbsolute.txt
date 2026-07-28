@@ -8,3 +8,6 @@
 /home/user/wspace/v0.15.1.13/OstranautsRuTranslationNss.deps.json
 /home/user/wspace/v0.15.1.13/OstranautsRuTranslationNss.dll
 /home/user/wspace/v0.15.1.13/OstranautsRuTranslationNss.pdb
+/tmp/ru-build/OstranautsRuTranslationNss.deps.json
+/tmp/ru-build/OstranautsRuTranslationNss.dll
+/tmp/ru-build/OstranautsRuTranslationNss.pdb

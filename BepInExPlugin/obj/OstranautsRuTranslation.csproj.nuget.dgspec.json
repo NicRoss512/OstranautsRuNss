@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/user/wspace/.dotnet/sdk/8.0.423/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/user/.dotnet/sdk/8.0.423/RuntimeIdentifierGraph.json"
         }
       }
     }
