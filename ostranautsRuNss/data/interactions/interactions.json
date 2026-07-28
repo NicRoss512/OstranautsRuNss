@@ -12602,7 +12602,7 @@
     "strThemType": "Other",
     "bHumanOnly": false,
     "CTTestUs": null,
-    "CTTestThem": null,
+    "CTTestThem": "TIsNotJOBMVPCourierTestTarget",
     "LootCTsUs": "CTJOBMVPCourierTestFinishedClient"
   },
   {

@@ -1612,7 +1612,7 @@
   {
     "strName": "GreetedByEnemy",
     "strNameFriendly": "Приветствован врагом",
-    "strColor": "Good",
+    "strColor": "Bad",
     "strDesc": "[us] был недавно поприветствован врагом.",
     "nDisplaySelf": 2,
     "nDisplayOther": 2,
