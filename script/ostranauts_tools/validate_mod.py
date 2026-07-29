@@ -53,6 +53,7 @@ IGNORE_FIELDS = {
     "strArticleBody",
     "strNameShort",
     "strNameDesc",
+    "aOverrideValues",
 }
 
 SPECIAL_FILES = {"strings.json", "conditions_simple.json"}
