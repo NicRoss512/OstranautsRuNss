@@ -632,7 +632,7 @@ namespace OstranautsRuTranslation
             return null;
         }
 
-        private static List<string> GetTranslationModRoots(string corePath)
+        internal static List<string> GetTranslationModRoots(string corePath)
         {
             var roots = new List<string>();
             var seen = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
@@ -771,6 +771,102 @@ namespace OstranautsRuTranslation
             PropertyInfo textureProperty = rawImage.GetType().GetProperty(
                 "texture", BindingFlags.Instance | BindingFlags.Public);
             textureProperty?.SetValue(rawImage, texture, null);
+        }
+    }
+
+    // DataHandler only loads interaction_overrides and plot_beat_overrides
+    // from mods that were added to its data path list. The translation package
+    // may still be present in the local Mods folder while its image files are
+    // used separately. Inject both tables before vanilla AllPostLoadAsync
+    // generates interactions and plot beats, so new missions receive the
+    // translated definitions.
+    [HarmonyPatch(typeof(DataHandler), "AllPostLoadAsync")]
+    public static class Patch_DataHandler_AllPostLoadAsync_TranslationOverrides
+    {
+        private static bool loaded;
+
+        static void Prefix()
+        {
+            if (loaded) return;
+            loaded = true;
+
+            try
+            {
+                int interactionAdded = 0;
+                int plotBeatAdded = 0;
+                foreach (string modRoot in Patch_DataHandler_LoadPNG_ManualModPriority.GetTranslationModRoots(DataHandler.strAssetPath))
+                {
+                    interactionAdded += LoadInteractionOverrides(modRoot);
+                    plotBeatAdded += LoadPlotBeatOverrides(modRoot);
+                }
+
+                RuTranslation.Log?.LogInfo("[RU] Direct interaction overrides injected: " + interactionAdded);
+                RuTranslation.Log?.LogInfo("[RU] Direct plot beat overrides injected: " + plotBeatAdded);
+            }
+            catch (Exception ex)
+            {
+                RuTranslation.Log?.LogError("[RU] Direct override patch failed: " + ex);
+            }
+        }
+
+        private static int LoadInteractionOverrides(string modRoot)
+        {
+            if (DataHandler.dictIAOverrides == null) return 0;
+            string directory = Path.Combine(modRoot, "data", "interaction_overrides");
+            if (!Directory.Exists(directory)) return 0;
+
+            int added = 0;
+            foreach (string file in Directory.GetFiles(directory, "*.json", SearchOption.AllDirectories))
+            {
+                try
+                {
+                    JsonInteractionOverride[] overrides = JsonMapper.ToObject<JsonInteractionOverride[]>(
+                        File.ReadAllText(file, Encoding.UTF8));
+                    if (overrides == null) continue;
+                    foreach (JsonInteractionOverride item in overrides)
+                    {
+                        if (item == null || string.IsNullOrEmpty(item.strName)) continue;
+                        DataHandler.dictIAOverrides[item.strName] = item;
+                        added++;
+                    }
+                    RuTranslation.Log?.LogInfo("[RU] Loaded interaction overrides directly: " + file);
+                }
+                catch (Exception ex)
+                {
+                    RuTranslation.Log?.LogError("[RU] Failed to load interaction overrides " + file + ": " + ex.Message);
+                }
+            }
+            return added;
+        }
+
+        private static int LoadPlotBeatOverrides(string modRoot)
+        {
+            if (DataHandler.dictPlotBeatOverrides == null) return 0;
+            string directory = Path.Combine(modRoot, "data", "plot_beat_overrides");
+            if (!Directory.Exists(directory)) return 0;
+
+            int added = 0;
+            foreach (string file in Directory.GetFiles(directory, "*.json", SearchOption.AllDirectories))
+            {
+                try
+                {
+                    JsonPlotBeatOverride[] overrides = JsonMapper.ToObject<JsonPlotBeatOverride[]>(
+                        File.ReadAllText(file, Encoding.UTF8));
+                    if (overrides == null) continue;
+                    foreach (JsonPlotBeatOverride item in overrides)
+                    {
+                        if (item == null || string.IsNullOrEmpty(item.strName)) continue;
+                        DataHandler.dictPlotBeatOverrides[item.strName] = item;
+                        added++;
+                    }
+                    RuTranslation.Log?.LogInfo("[RU] Loaded plot beat overrides directly: " + file);
+                }
+                catch (Exception ex)
+                {
+                    RuTranslation.Log?.LogError("[RU] Failed to load plot beat overrides " + file + ": " + ex.Message);
+                }
+            }
+            return added;
         }
     }
 }
