@@ -54,6 +54,7 @@ IGNORE_FIELDS = {
     "strNameShort",
     "strNameDesc",
     "aOverrideValues",
+    "aOverrideTriggerIAValues",
 }
 
 SPECIAL_FILES = {"strings.json", "conditions_simple.json"}
