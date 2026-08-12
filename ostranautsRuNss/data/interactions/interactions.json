@@ -17288,9 +17288,10 @@
     "LootCTsUs": "CTSeekDrugStartDirectUs",
     "LootCTsThem": null,
     "CTTestUs": null,
-    "CTTestThem": null,
+    "CTTestThem": "TIsCigaretteUnlit",
     "aLootItms": [],
-    "objLootModeSwitch": null
+    "objLootModeSwitch": null,
+    "bPassThrough": true
   },
   {
     "strName": "ACTDrawCigAllow",
@@ -17302,18 +17303,18 @@
     "strAnim": null,
     "strBubble": null,
     "aInverse": [],
-    "fDuration": 2.7e-05,
+    "fDuration": 0.0,
     "bIgnoreFeelings": true,
     "strThemType": "Other",
     "strRaiseUI": null,
     "nLogging": 1,
     "LootCTsUs": null,
     "LootCTsThem": null,
-    "CTTestUs": null,
+    "CTTestUs": "TIsCigaretteUnlit",
     "CTTestThem": null,
     "bEquip": true,
     "aLootItms": [
-      "Give,CTCigaretteUnlit,false,false"
+      "Give,CT[us],false,false"
     ],
     "objLootModeSwitch": null
   },

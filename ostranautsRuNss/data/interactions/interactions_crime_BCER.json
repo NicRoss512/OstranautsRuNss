@@ -125,7 +125,8 @@
       "CGEncHomeworldLEOEnemy",
       "CGEncHomeworldPrisonerFriend",
       "CGEncHomeworldCriminalEnemy"
-    ]
+    ],
+    "bHardCode": true
   },
   {
     "strName": "ENCHeatGalConPrisonFinish",

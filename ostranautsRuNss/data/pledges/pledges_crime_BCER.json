@@ -48,7 +48,8 @@
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeGalConArrest",
     "aIAEnd": [
-      "PLGAIReportCrimeGalConArrestDone"
+      "PLGAIReportCrimeGalConArrestDone",
+      "PLGAIReportCrimeImmuneDone"
     ],
     "strThemID": null,
     "nPriority": 6
@@ -59,7 +60,8 @@
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeGalConThreat",
     "aIAEnd": [
-      "PLGAIReportCrimeGalConThreatDone"
+      "PLGAIReportCrimeGalConThreatDone",
+      "PLGAIReportCrimeImmuneDone"
     ],
     "strThemID": null,
     "nPriority": 6

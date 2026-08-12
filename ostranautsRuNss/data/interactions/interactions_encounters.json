@@ -3629,8 +3629,7 @@
     "LootCondsThem": null,
     "CTTestUs": "TCannotNavigateVLA05",
     "CTTestThem": "TIsTransitLiftXInstalledUndamaged",
-    "ShipTestThem": "VLA05",
-    "strAchievementUnlock": "ACH_VLA05"
+    "ShipTestThem": "VLA05"
   },
   {
     "strName": "ENCVLAUnlock05Allow",
@@ -5713,7 +5712,8 @@
       "CGEncHomeworldLEOEnemy",
       "CGEncHomeworldPrisonerFriend",
       "CGEncHomeworldCriminalEnemy"
-    ]
+    ],
+    "bHardCode": true
   },
   {
     "strName": "ENCHeatAyoSecPrisonFinish",
@@ -5864,7 +5864,8 @@
       "CGEncHomeworldLEOEnemy",
       "CGEncHomeworldPrisonerFriend",
       "CGEncHomeworldCriminalEnemy"
-    ]
+    ],
+    "bHardCode": true
   },
   {
     "strName": "ENCHeatCCREPrisonFinish",
@@ -6056,7 +6057,8 @@
       "CGEncHomeworldLEOEnemy",
       "CGEncHomeworldPrisonerFriend",
       "CGEncHomeworldCriminalEnemy"
-    ]
+    ],
+    "bHardCode": true
   },
   {
     "strName": "ENCHeatVenusPrisonFinish",
