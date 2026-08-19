@@ -2532,7 +2532,7 @@
   },
   {
     "strName": "SOCPartnerKissContinue",
-    "strTitle": "Углубить поцелуй",
+    "strTitle": "Поцелуй",
     "strDesc": "[us] [deepens] в поцелуи с [them-obj].",
     "strTargetPoint": "use",
     "strAnim": "Yes",
@@ -2559,7 +2559,7 @@
   },
   {
     "strName": "SOCPartnerKissContinueAllow",
-    "strTitle": "Углубить поцелуй",
+    "strTitle": "Поцелуй",
     "strDesc": "[us] [deepens] в страстные поцелуи с [them-obj], смакуя их вкус.",
     "strTargetPoint": "use",
     "strAnim": "Yes",

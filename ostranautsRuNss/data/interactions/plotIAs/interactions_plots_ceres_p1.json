@@ -269,7 +269,7 @@
     "aInverse": [
       "ENCFinish"
     ],
-    "strSetPlotObjective": "name|The Videotape: Research 'VHS'|ct|TIsPDAHeldUnlocked|desc|Return to an OKLG station and search the local mesh on your PDA.|img|ItmWristPDA01",
+    "strSetPlotObjective": "name|The Videotape: Research 'VHS'|ct|TIsPDAHeldUnlocked|desc|Enter any OKLG station and use the RESEARCH action on your PDA.|img|ItmWristPDA01",
     "LootCondsUs": "CONDPLOT_VideotapeInspectFinish"
   },
   {

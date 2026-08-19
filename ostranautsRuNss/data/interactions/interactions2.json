@@ -3407,7 +3407,7 @@
   },
   {
     "strName": "SOCBurstLaughing",
-    "strTitle": "Вспыхнуть Смехом",
+    "strTitle": "Засмеяться",
     "strDesc": "[us] [lets] вырывается удивленный взрыв смеха.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
